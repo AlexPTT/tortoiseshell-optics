@@ -1,0 +1,107 @@
+html{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.container{
+  max-width: 960px;
+  margin:auto;
+}
+/* Header & Banner */
+.banner{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+header{
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head1{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+}
+.head1 span{
+  margin-left: 1rem;
+}
+.head2 span{
+  margin:2rem;
+}
+.quote{
+  padding-top: 10rem;
+  float: right;
+}
+.quote span{
+  background-color: white;
+  padding: 1.5rem 5rem;;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+/*Content*/
+.supporting {
+display: flex;
+justify-content: center;
+}
+.service{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  height: 8rem;
+  margin: 3rem;
+  width: 5rem;
+}
+.paper{width: 3.5rem;}
+.ruler,.truck{width: 5rem; }
+
+.philosophy, .appointment{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.appointment div{
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  color: white;
+}
+.philosophy div{
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  color:white;
+}
+.philosophy span{
+  margin-top: 1rem;
+}
+.appointment span{
+  margin-top: 1rem;
+}
+/*Footer*/
+footer{
+  padding-top: 5rem;
+  background-color: azure;
+}
+.foot{
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+  .foot img{
+  height: 1.5rem;
+}
+.foot span{
+  margin-left: 1rem;
+}
